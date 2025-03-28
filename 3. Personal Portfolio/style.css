@@ -1,0 +1,242 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+/* Header */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 5px;
+  padding-right: 20px;
+}
+
+nav ul > li:not(:last-child)::after {
+  content: "/";
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-intro {
+  display: flex;
+  align-items: center;
+}
+
+.header-intro img {
+  padding: 15px;
+  border-radius: 30%;
+  object-fit: cover;
+}
+
+/* Main Content */
+main {
+  display: grid;
+  grid-template-areas:
+    "intro intro intro"
+    "projects work education"
+    "reviews reviews reviews";
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+/* Intro section */
+.intro {
+  text-align: center;
+  grid-area: intro;
+  padding: 50px 200px;
+  border-bottom: 1px solid black;
+}
+
+.intro h1 {
+  font-size: 40px;
+}
+
+/* Projects section */
+.projects {
+  grid-area: projects;
+  border-right: 1px solid black;
+}
+
+.projects-page .projects li {
+  background-color: rgba(128, 128, 128, 0.308);
+  border-top: 1px solid black !important;
+  border-bottom: 1px solid black !important;
+  padding: 20px !important;
+  text-align: center;
+}
+
+.projects ul {
+  padding: 0px;
+}
+
+.projects li {
+  list-style-type: none;
+  padding: 20px 30px;
+  border-top: 1px solid black;
+}
+
+.projects li:first-child {
+  border: none;
+  padding: 0px 30px 20px;
+}
+
+/* Work section */
+.work {
+  grid-area: work;
+}
+
+.work-element {
+  padding: 0px 20px 20px 20px;
+}
+
+.work-element h3 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.work-element a {
+  text-decoration: none;
+}
+
+.work .work-element:last-child {
+  border-top: 1px solid black;
+}
+
+/* Education section */
+.education {
+  grid-area: education;
+  border-left: 1px solid black;
+  padding: 0px 20px;
+}
+
+.education ul {
+  padding: 10px;
+  list-style-type: "- ";
+}
+
+/* Reviews section */
+.reviews {
+  grid-area: reviews;
+  border-top: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews h2 {
+  width: 100%;
+}
+
+.review {
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 35px;
+  margin: 0px 20px;
+}
+
+.review cite {
+  color: grey;
+}
+
+/* Articles and Contact sections */
+.articles article,
+.contact form {
+  width: 85%;
+  background-color: rgba(128, 128, 128, 0.308);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+}
+
+.contact *:not(h1) {
+  display: block;
+  font-size: 20px;
+}
+
+.contact input,
+.contact textarea {
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 25px;
+  border: none;
+  resize: vertical;
+}
+
+.contact button {
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  background-color: #007bff96;
+}
+
+/* Footer */
+footer p {
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  .header-intro,
+  main,
+  .reviews {
+    display: block;
+  }
+
+  .projects li,
+  .work-element {
+    background-color: rgba(128, 128, 128, 0.308);
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    padding: 20px !important;
+    margin-bottom: -1px;
+  }
+
+  .projects {
+    border-right: none;
+  }
+
+  .education {
+    border: none;
+  }
+
+  .projects li {
+    text-align: center;
+  }
+
+  .intro {
+    padding: 0 50px;
+  }
+
+  .header-intro img {
+    display: block;
+    margin: auto;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  .review {
+    margin-bottom: 15px;
+  }
+}

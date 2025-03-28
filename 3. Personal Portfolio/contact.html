@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO Meta Tags -->
+    <!-- Contact forms should be excluded from search results. 
+     Keywords meta tag removed as it's not needed here. 
+     Added robots meta tag to stop search engines from crawling this page. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="Basic HTML-only contact page" />
+    <meta name="author" content="My Name" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact | Basic HTML Website</title>
+  </head>
+  <body>
+    <!-- Header of the page with navigation links -->
+    <header>
+      <div class="header-intro">
+        <img src="images/MyFace.jpg" alt="Author's face" width="50px" height="50px" />
+        <h2>There should be my name</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main contact page -->
+    <main style="display: block">
+      <section class="contact">
+        <h1>Contact Me</h1>
+        <form action="/submit-form" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" required></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <!-- Footer with useful information -->
+    <footer>
+      <p>&copy; all rights reserved 2025</p>
+    </footer>
+  </body>
+</html>
