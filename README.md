@@ -7,7 +7,7 @@ This repository will contain (I hope) complete frontend projects according to [r
 - [x] [Single-Page CV](https://github.com/SkorpikFeed/Roadmap.sh-Solutions/tree/main/1.%20Single-Page%20CV) - [Project Page](https://roadmap.sh/projects/single-page-cv)
 - [x] [Basic HTML Website](https://github.com/SkorpikFeed/Roadmap.sh-Solutions/tree/main/2.%20Basic%20HTML%20Website) - [Project Page](https://roadmap.sh/projects/basic-html-website)
 - [x] [Personal Portfolio](https://skorpikfeed.github.io/Roadmap.sh-Solutions/3.%20Personal%20Portfolio) - [Project Page](https://roadmap.sh/projects/portfolio-website "Hello")
-- [ ] Changelog Component - [Project Page](https://roadmap.sh/projects/changelog-component)
+- [x] [Changelog Component](https://skorpikfeed.github.io/Roadmap.sh-Solutions/4.%20Changelog%20Component) - [Project Page](https://roadmap.sh/projects/changelog-component)
 - [ ] Testimonial Cards - [Project Page](https://roadmap.sh/projects/testimonial-cards)
 - [ ] Datepicker UI - [Project Page](https://roadmap.sh/projects/datepicker-ui)
 - [ ] Accessible Form UI - [Project Page](https://roadmap.sh/projects/accessible-form-ui)
