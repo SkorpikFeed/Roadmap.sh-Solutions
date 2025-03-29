@@ -1,0 +1,112 @@
+:root {
+  --background-color-main: rgb(194, 191, 191);
+  --background-color: white;
+  --text-color: black;
+  --text-secondary-color: grey;
+  --text-inverse-color: white;
+  --accent-color: black;
+  --accent-hover-color: grey;
+  --border-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color-main: rgb(66, 66, 66);
+    --background-color: black;
+    --text-color: #ffffff;
+    --text-secondary-color: #a0a0a0;
+    --text-inverse-color: #000000;
+    --accent-color: #ffffff;
+    --accent-hover-color: #cccccc;
+    --border-color: white;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p,
+time {
+  color: var(--text-secondary-color);
+}
+
+body {
+  background-color: var(--background-color-main);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+}
+
+.changelog-container {
+  background-color: var(--background-color);
+  border: 2px solid transparent;
+  border-radius: 25px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.changelog {
+  position: relative;
+  border-left: 2px solid var(--border-color);
+  left: 50%;
+  height: 100%;
+  padding: 55px 0;
+  width: 50%;
+}
+
+.changelog-item {
+  text-align: start;
+  position: relative;
+}
+
+.changelog-item * {
+  padding: 0 20px;
+}
+
+.changelog-item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  border: 7px solid var(--border-color);
+  margin: -7px 0 0 -8px;
+}
+
+.changelog-item:nth-child(odd) {
+  text-align: end;
+  right: 100%;
+  padding: 0;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: var(--text-inverse-color);
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 12px;
+  padding: 15px 40px;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: var(--accent-hover-color);
+}
+
+@media screen and (max-width: 600px) {
+  .changelog {
+    left: 0;
+    width: auto;
+    margin: 0 0 0 10%;
+    box-sizing: border-box;
+  }
+
+  .changelog-item:nth-child(odd) {
+    text-align: start;
+    right: inherit;
+  }
+}
