@@ -9,7 +9,7 @@ This repository will contain (I hope) complete frontend projects according to [r
 - [x] [Personal Portfolio](https://skorpikfeed.github.io/Roadmap.sh-Solutions/3.%20Personal%20Portfolio) - [Project Page](https://roadmap.sh/projects/portfolio-website "Hello")
 - [x] [Changelog Component](https://skorpikfeed.github.io/Roadmap.sh-Solutions/4.%20Changelog%20Component) - [Project Page](https://roadmap.sh/projects/changelog-component)
 - [x] [Testimonial Cards](https://skorpikfeed.github.io/Roadmap.sh-Solutions/5.%20Testimonial%20Cards) - [Project Page](https://roadmap.sh/projects/testimonial-cards)
-- [ ] Datepicker UI - [Project Page](https://roadmap.sh/projects/datepicker-ui)
+- [x] [Datepicker UI](https://skorpikfeed.github.io/Roadmap.sh-Solutions/6.%20Datepicker%20UI) - [Project Page](https://roadmap.sh/projects/datepicker-ui)
 - [ ] Accessible Form UI - [Project Page](https://roadmap.sh/projects/accessible-form-ui)
 - [ ] Image Grid Layout - [Project Page](https://roadmap.sh/projects/image-grid)
 - [ ] Tooltip UI - [Project Page](https://roadmap.sh/projects/tooltip-ui)
