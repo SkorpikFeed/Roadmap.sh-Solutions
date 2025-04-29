@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Accessible Form UI</title>
+  </head>
+  <body>
+    <form action="#">
+      <div class="main-info">
+        <label for="name">Full name</label>
+        <input type="text" name="name" id="name" placeholder="What should we call you?" required aria-describedby="nameError" />
+        <div id="nameError" class="error-message" aria-live="polite"></div>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com" required aria-describedby="emailError" />
+        <div id="emailError" class="error-message" aria-live="polite"></div>
+
+        <label for="passwd">Enter Password</label>
+        <div class="password-collection">
+          <input type="password" name="passwd" id="passwd" class="password-input" placeholder="xxxxxxxx" required aria-describedby="passwdError" />
+          <input type="checkbox" name="passwdToggle" id="togglePasswd" class="password-toggle" tabindex="-1" />
+          <label for="togglePasswd" class="fa-solid fa-eye" tabindex="0" aria-label="Show password" role="button"></label>
+        </div>
+        <div id="passwdError" class="error-message" aria-live="polite"></div>
+
+        <label for="passwdConfirm">Confirm Password</label>
+        <div class="password-collection">
+          <input type="password" name="passwdConfirm" id="passwdConfirm" placeholder="xxxxxxxx" required aria-describedby="passwdConfirmError" />
+          <input type="checkbox" name="passwdConfirmToggle" id="togglePasswdConfirm" class="password-toggle" tabindex="-1" />
+          <label for="togglePasswdConfirm" class="fa-solid fa-eye" tabindex="0" aria-label="Show password" role="button"></label>
+        </div>
+        <div id="passwdConfirmError" class="error-message" aria-live="polite"></div>
+
+        <button type="submit">Update Profile</button>
+      </div>
+      <div class="additional-info">
+        <div class="circle-progressbar" style="position: relative" role="progressbar" aria-valuenow="65" aria-valuemax="100" aria-valuemin="0" aria-labelledby="profileCompleteness">
+          <svg style="transform: rotate(90deg)">
+            <circle r="50" cx="50%" cy="50%" fill="transparent" stroke="#909090" stroke-width="5px"></circle>
+            <circle r="50" cx="50%" cy="50%" fill="transparent" stroke="#000" stroke-width="10px" stroke-dasharray="314.2px" stroke-dashoffset="110px"></circle>
+          </svg>
+          <p class="percentage">65%</p>
+        </div>
+
+        <p id="profileCompleteness">Profile Completeness</p>
+
+        <ul class="checklist">
+          <li class="completed">Create Account</li>
+          <li class="completed">Update Roadmap Progress</li>
+          <li class="completed">Setup Public Profile</li>
+          <li>Complete your first project</li>
+          <li>Invite your Friends</li>
+        </ul>
+      </div>
+    </form>
+  </body>
+</html>
