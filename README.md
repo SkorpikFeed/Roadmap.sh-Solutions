@@ -11,7 +11,7 @@ This repository will contain (I hope) complete frontend projects according to [r
 - [x] [Testimonial Cards](https://skorpikfeed.github.io/Roadmap.sh-Solutions/5.%20Testimonial%20Cards) - [Project Page](https://roadmap.sh/projects/testimonial-cards)
 - [x] [Datepicker UI](https://skorpikfeed.github.io/Roadmap.sh-Solutions/6.%20Datepicker%20UI) - [Project Page](https://roadmap.sh/projects/datepicker-ui)
 - [x] [Accessible Form UI](https://skorpikfeed.github.io/Roadmap.sh-Solutions/7.%20Accessible%20Form%20UI) - [Project Page](https://roadmap.sh/projects/accessible-form-ui)
-- [ ] Image Grid Layout - [Project Page](https://roadmap.sh/projects/image-grid)
+- [x] [Image Grid Layout](https://skorpikfeed.github.io/Roadmap.sh-Solutions/8.%20Image%20Grid%20Layout) - [Project Page](https://roadmap.sh/projects/image-grid)
 - [ ] Tooltip UI - [Project Page](https://roadmap.sh/projects/tooltip-ui)
 - [ ] Tabs - [Project Page](https://roadmap.sh/projects/simple-tabs)
 - [ ] Cookie Consent - [Project Page](https://roadmap.sh/projects/cookie-consent)
