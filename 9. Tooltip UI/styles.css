@@ -1,0 +1,60 @@
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  border: 2px solid black;
+  border-radius: 35px;
+  padding: 100px 150px;
+}
+
+body {
+  font-size: 1.5rem;
+  margin-top: 250px;
+}
+
+.tooltip {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  width: 350px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  left: 50%;
+  margin-left: -175px;
+  bottom: 120%;
+  transition: all 0.3s ease;
+}
+
+.tooltip::after {
+  border-color: black transparent transparent transparent;
+  content: " ";
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+  top: 100%;
+  left: 50%;
+}
+
+li:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+li {
+  position: relative;
+}
