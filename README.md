@@ -13,7 +13,7 @@ This repository will contain (I hope) complete frontend projects according to [r
 - [x] [Accessible Form UI](https://skorpikfeed.github.io/Roadmap.sh-Solutions/7.%20Accessible%20Form%20UI) - [Project Page](https://roadmap.sh/projects/accessible-form-ui)
 - [x] [Image Grid Layout](https://skorpikfeed.github.io/Roadmap.sh-Solutions/8.%20Image%20Grid%20Layout) - [Project Page](https://roadmap.sh/projects/image-grid)
 - [X] [Tooltip UI](https://skorpikfeed.github.io/Roadmap.sh-Solutions/9.%20Tooltip%20UI) - [Project Page](https://roadmap.sh/projects/tooltip-ui)
-- [ ] Tabs - [Project Page](https://roadmap.sh/projects/simple-tabs)
+- [X] [Tabs](https://skorpikfeed.github.io/Roadmap.sh-Solutions/10.%20Tabs) - [Project Page](https://roadmap.sh/projects/simple-tabs)
 - [ ] Cookie Consent - [Project Page](https://roadmap.sh/projects/cookie-consent)
 - [ ] Restricted Textarea - [Project Page](https://roadmap.sh/projects/restricted-textarea)
 - [ ] Accordion - [Project Page](https://roadmap.sh/projects/accordion)
