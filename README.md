@@ -14,7 +14,7 @@ This repository will contain (I hope) complete frontend projects according to [r
 - [x] [Image Grid Layout](https://skorpikfeed.github.io/Roadmap.sh-Solutions/8.%20Image%20Grid%20Layout) - [Project Page](https://roadmap.sh/projects/image-grid)
 - [X] [Tooltip UI](https://skorpikfeed.github.io/Roadmap.sh-Solutions/9.%20Tooltip%20UI) - [Project Page](https://roadmap.sh/projects/tooltip-ui)
 - [X] [Tabs](https://skorpikfeed.github.io/Roadmap.sh-Solutions/10.%20Tabs) - [Project Page](https://roadmap.sh/projects/simple-tabs)
-- [ ] Cookie Consent - [Project Page](https://roadmap.sh/projects/cookie-consent)
+- [X] [Cookie Consent](https://skorpikfeed.github.io/Roadmap.sh-Solutions/11.%20Cookie%20Consent) - [Project Page](https://roadmap.sh/projects/cookie-consent)
 - [ ] Restricted Textarea - [Project Page](https://roadmap.sh/projects/restricted-textarea)
 - [ ] Accordion - [Project Page](https://roadmap.sh/projects/accordion)
 - [ ] Age Calculator - [Project Page](https://roadmap.sh/projects/age-calculator)
