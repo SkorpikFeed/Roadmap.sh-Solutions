@@ -1,0 +1,60 @@
+* {
+  font-family: "Fredoka", Helvetica, sans-serif;
+}
+
+p,
+button {
+  font-size: 1.4rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cookie {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: black;
+  width: 350px;
+  height: 372px;
+  border-radius: 25px;
+  color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  transition: opacity 1s, transform 1s;
+}
+
+.cookie * {
+  padding: 0px 25px;
+}
+
+#svg-cookie {
+  padding-top: 30px;
+}
+
+.cookie button {
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  font-weight: 450;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.disabled {
+  opacity: 0;
+  transform: translateY(100px);
+  pointer-events: none;
+}
+
+#cookie-accepted:hover {
+  background-color: rgb(229, 229, 229);
+  transform: scale(1.05);
+}
+
+#cookie-discarded:hover {
+  background-color: rgb(246, 161, 161);
+  transform: scale(1.05);
+}
