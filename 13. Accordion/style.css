@@ -1,0 +1,50 @@
+* {
+  font-family: "Fredoka", Helvetica, sans-serif;
+}
+
+body {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.question,
+.answear.open {
+  width: 100%;
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 15px;
+  margin: 3px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.question {
+  background-color: black;
+  color: white;
+  border-color: transparent;
+  position: relative;
+}
+
+.question::after {
+  content: "v";
+  position: absolute;
+  right: 15px;
+}
+
+.answear {
+  max-height: 0px;
+  padding: 0 15px;
+  margin: 0;
+  overflow: hidden;
+  border: none;
+  transition: max-height, padding 0.2s ease-out;
+}
+
+.answear.open {
+  max-height: 200px;
+  border: 2px solid black;
+}

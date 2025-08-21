@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Accordion</title>
+  </head>
+  <body>
+    <h1>Frequently Asked Questions</h1>
+    <p>Here are some of the frequently asked questions</p>
+    <div class="question-and-answear">
+      <button class="question">What is roadmap.sh?</button>
+      <div class="answear">
+        roadmap.sh is a community effort to create learning paths, guides,
+        project ideas and other similar content to help developers grow in their
+        careers
+      </div>
+    </div>
+    <div class="question-and-answear">
+      <button class="question">What are the plans for roadmap.sh?</button>
+      <div class="answear">
+        roadmap.sh is a community effort to create learning paths, guides,
+        project ideas and other similar content to help developers grow in their
+        careers
+      </div>
+    </div>
+    <div class="question-and-answear">
+      <button class="question">How is roadmap.sh built?</button>
+      <div class="answear">
+        roadmap.sh is a community effort to create learning paths, guides,
+        project ideas and other similar content to help developers grow in their
+        careers
+      </div>
+    </div>
+    <div class="question-and-answear">
+      <button class="question">Can I use roadmap.sh in my teams?</button>
+      <div class="answear">
+        roadmap.sh is a community effort to create learning paths, guides,
+        project ideas and other similar content to help developers grow in their
+        careers
+      </div>
+    </div>
+    <div class="question-and-answear">
+      <button class="question">How can I create custom roadmaps?</button>
+      <div class="answear">
+        roadmap.sh is a community effort to create learning paths, guides,
+        project ideas and other similar content to help developers grow in their
+        careers
+      </div>
+    </div>
+    <div class="question-and-answear">
+      <button class="question">
+        Is roadmap.sh really 7th mosth starred project on GitHub?
+      </button>
+      <div class="answear">
+        roadmap.sh is a community effort to create learning paths, guides,
+        project ideas and other similar content to help developers grow in their
+        careers
+      </div>
+    </div>
+    <script>
+      document.querySelectorAll(".question").forEach((question) => {
+        question.addEventListener("click", () => {
+          document
+            .querySelectorAll(".answear")
+            .forEach((answear) => answear.classList.remove("open"));
+          const answear = question.nextElementSibling;
+          answear.classList.add("open");
+        });
+      });
+    </script>
+  </body>
+</html>
