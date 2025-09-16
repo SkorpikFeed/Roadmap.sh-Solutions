@@ -1,0 +1,44 @@
+* {
+  font-family: "Fredoka", Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+body {
+  max-width: 350px;
+  margin: auto;
+}
+
+form * {
+  display: block;
+  margin: 7px 0;
+}
+
+button,
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+button {
+  background-color: #525252;
+  border-color: #525252;
+  color: white;
+}
+
+#answear {
+  text-align: center;
+  font-size: 1.15rem;
+  /* visibility: hidden; */
+}
+
+#answear span {
+  font-weight: 600;
+}
