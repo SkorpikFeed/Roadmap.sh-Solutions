@@ -17,7 +17,7 @@ This repository will contain (I hope) complete frontend projects according to [r
 - [X] [Cookie Consent](https://skorpikfeed.github.io/Roadmap.sh-Solutions/11.%20Cookie%20Consent) - [Project Page](https://roadmap.sh/projects/cookie-consent)
 - [X] [Restricted Textarea](https://skorpikfeed.github.io/Roadmap.sh-Solutions/12.%20Restricted%20Textarea) - [Project Page](https://roadmap.sh/projects/restricted-textarea)
 - [X] [Accordion](https://skorpikfeed.github.io/Roadmap.sh-Solutions/13.%20Accordion) - [Project Page](https://roadmap.sh/projects/accordion)
-- [ ] Age Calculator - [Project Page](https://roadmap.sh/projects/age-calculator)
+- [X] [Age Calculator](https://skorpikfeed.github.io/Roadmap.sh-Solutions/14.%20Age%20Calculator) - [Project Page](https://roadmap.sh/projects/age-calculator)
 - [ ] Flash Cards - [Project Page](https://roadmap.sh/projects/flash-cards)
 - [ ] Custom Dropdown - [Project Page](https://roadmap.sh/projects/custom-dropdown)
 - [ ] Task Tracker - [Project Page](https://roadmap.sh/projects/task-tracker-js)
